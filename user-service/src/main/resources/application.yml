@@ -1,0 +1,24 @@
+server:
+  port: 8081
+  servlet:
+    path: /
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/mytest
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.java.pojo
+eureka:
+  client:
+    service-url: # EurekaServer地址
+      defaultZone: http://127.0.0.1:8082/eureka
+    registry-fetch-interval-seconds: 5   #5秒间隔获取服务列表
+  instance:
+    prefer-ip-address: true # 当调用getHostname获取实例的hostname时，返回ip而不是host名称
+    ip-address: 127.0.0.1 # 指定自己的ip信息，不指定的话会自己寻找
+    lease-expiration-duration-in-seconds: 10 # 10秒即过期
+    lease-renewal-interval-in-seconds: 5 # 5秒一次心跳
+    instance-id: ${spring.application.name}:${server.port}
