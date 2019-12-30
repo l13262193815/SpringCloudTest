@@ -12,6 +12,7 @@
         <module>user-service</module>
         <module>customer-service</module>
         <module>eureka-service</module>
+        <module>zuul-service</module>
     </modules>
 
     <!--引入父工程的坐标-->

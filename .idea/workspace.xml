@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d7f6929-72f8-487b-8820-21c5dfc5d0ee" name="Default Changelist" comment="" />
+    <list default="true" id="2d7f6929-72f8-487b-8820-21c5dfc5d0ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-service/zuul-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/java/CustomerApplicationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/java/CustomerApplicationStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/java/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/java/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/com/java/CustomerApplicationStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/com/java/CustomerApplicationStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/com/java/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/com/java/controller/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/java/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/java/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/java/controller/UserController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,6 +51,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\NewIDEA\Maven-SpringCloud\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,6 +66,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1VVnsIerhCVyUiPFI0VLlG8xd8F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,6 +78,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
@@ -65,20 +107,8 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="hiddenConfigurations">
-      <map>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <set>
-              <option value="EurekaApplicationStart2" />
-              <option value="UserApplicationStart2" />
-            </set>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ZuulApplicationStart">
     <configuration name="CustomerApplicationStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="customer-service" />
       <extension name="coverage">
@@ -118,16 +148,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulApplicationStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zuul-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.ZuulApplicationStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.CustomerApplicationStart" />
       <item itemvalue="Spring Boot.EurekaApplicationStart" />
       <item itemvalue="Spring Boot.UserApplicationStart" />
+      <item itemvalue="Spring Boot.ZuulApplicationStart" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CustomerApplicationStart" />
-        <item itemvalue="Spring Boot.UserApplicationStart" />
+        <item itemvalue="Spring Boot.ZuulApplicationStart" />
         <item itemvalue="Spring Boot.EurekaApplicationStart" />
+        <item itemvalue="Spring Boot.UserApplicationStart" />
+        <item itemvalue="Spring Boot.CustomerApplicationStart" />
       </list>
     </recent_temporary>
   </component>
@@ -135,17 +180,12 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.2090164" />
+          <option name="contentProportion" value="0.18784153" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -164,12 +204,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577347336769</updated>
-      <workItem from="1577347344667" duration="9652000" />
+      <workItem from="1577347344667" duration="13118000" />
+      <workItem from="1577410175689" duration="4163000" />
+      <workItem from="1577426159263" duration="977000" />
+      <workItem from="1577431362146" duration="3919000" />
+      <workItem from="1577440257177" duration="2110000" />
+      <workItem from="1577525178100" duration="602000" />
+      <workItem from="1577596981336" duration="7199000" />
+      <workItem from="1577609454840" duration="1135000" />
+      <workItem from="1577677892463" duration="620000" />
     </task>
+    <task id="LOCAL-00001" summary="SpringCloud第一次提交">
+      <created>1577357210881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577357210881</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SpringCloud第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringCloud第一次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1577349045343">
@@ -180,10 +240,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577357006884" />
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1577349287805">
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1577609633402">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577349287805" />
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577609633402" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577439424487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577439424487" />
+    <state x="334" y="7" key="CommitChangelistDialog2" timestamp="1577357206558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="334" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577357206558" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1577349026205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -196,58 +264,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="609" y="308" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1577357165420" />
-    <state width="1157" height="307" key="GridCell.Tab.0.bottom" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.0.bottom" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.0.center" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.0.center" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.0.left" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.0.left" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.0.right" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.0.right" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.1.bottom" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.1.bottom" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.1.center" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.1.center" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.1.left" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.1.left" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.1.right" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.1.right" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.2.bottom" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.2.bottom" timestamp="1577610607746">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.2.center" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577610607746" />
+    <state width="1188" height="188" key="GridCell.Tab.2.center" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.2.left" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.2.left" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state width="1157" height="307" key="GridCell.Tab.2.right" timestamp="1577357053535">
+    <state width="1188" height="188" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state width="1188" height="188" key="GridCell.Tab.2.right" timestamp="1577610607745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1157" height="307" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1577357053535" />
-    <state x="178" y="116" key="new project wizard" timestamp="1577349822323">
+    <state width="1188" height="188" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1577357220981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1577349822323" />
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577357220981" />
+    <state x="443" y="214" key="git4idea.merge.GitPullDialog" timestamp="1577679051818">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="443" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1577679051818" />
+    <state x="178" y="116" key="new project wizard" timestamp="1577597538352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1577597538352" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577356839278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -1,25 +1,24 @@
 package com.java.controller;
 
+import com.java.client.UserClient;
 import com.java.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("customer")
+//@DefaultProperties(defaultFallback = "queryBack")//本类中的所有方法都使用熔断器
 public class CustomerController {
     @Autowired
+    private UserClient client;
+    /*@Autowired
     private RestTemplate restTemplate;
 
     @Autowired
-    private DiscoveryClient discoveryClient;
+    private DiscoveryClient discoveryClient;//eureka客户端*/
 
     /*@GetMapping("/{i}")
     public User getUser(@PathVariable("i") Long i){
@@ -38,11 +37,32 @@ public class CustomerController {
 //    }
 
 
-    @GetMapping("/{i}")
+    /*@GetMapping("/{i}")
     public User getUser(@PathVariable("i") Long i){
         String url ="http://user-service/user/"+i;
         User user = restTemplate.getForObject(url,User.class);
         return user;
+    }*/
+
+    /*@GetMapping("/{i}")
+    @HystrixCommand//本方法使用熔断器
+    public String getUser(@PathVariable("i") Long i) {
+        String url = "http://user-service/user/" + i;
+        String user = restTemplate.getForObject(url, String.class);
+        return user;
+    }*/
+
+    @GetMapping("/{i}")
+    public User getUser(@PathVariable("i") Long i) {
+        System.out.println("方法");
+        /*String url = "http://user-service/user/" + i;
+        String user = restTemplate.getForObject(url, String.class);*/
+        return client.queryUserById(i);
+    }
+
+    //当访问失败,调用此方法
+    public String queryBack(){
+        return "现在网络延迟";
     }
 
 }
