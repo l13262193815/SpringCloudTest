@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d7f6929-72f8-487b-8820-21c5dfc5d0ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul-service/zuul-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/java/CustomerApplicationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/java/CustomerApplicationStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/java/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/java/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/com/java/CustomerApplicationStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/com/java/CustomerApplicationStart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/com/java/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/com/java/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/java/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/java/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/java/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +195,7 @@
       <workItem from="1577525178100" duration="602000" />
       <workItem from="1577596981336" duration="7199000" />
       <workItem from="1577609454840" duration="1135000" />
-      <workItem from="1577677892463" duration="620000" />
+      <workItem from="1577677892463" duration="867000" />
     </task>
     <task id="LOCAL-00001" summary="SpringCloud第一次提交">
       <created>1577357210881</created>
@@ -221,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577357210881</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SpringCloud第二次提交">
+      <created>1577679104778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577679104778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +219,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SpringCloud第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringCloud第一次提交" />
+    <MESSAGE value="SpringCloud第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringCloud第二次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1577349045343">
@@ -248,10 +239,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577439424487" />
-    <state x="334" y="7" key="CommitChangelistDialog2" timestamp="1577357206558">
+    <state x="334" y="7" key="CommitChangelistDialog2" timestamp="1577679334684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="334" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577357206558" />
+    <state x="334" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577679334684" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1577349026205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -312,14 +303,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1188" height="188" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1577610607745" />
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1577357220981">
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1577679114078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577357220981" />
-    <state x="443" y="214" key="git4idea.merge.GitPullDialog" timestamp="1577679051818">
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577679114078" />
+    <state x="443" y="214" key="git4idea.merge.GitPullDialog" timestamp="1577679155536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="443" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1577679051818" />
+    <state x="443" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1577679155536" />
     <state x="178" y="116" key="new project wizard" timestamp="1577597538352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
